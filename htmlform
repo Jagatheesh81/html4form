@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prj5.css">
+    <title>Registration Form</title>
+    <body background=""><br>
+</head>
+<body>
+    <form>
+        <div class="container>"></div>
+            <h1>REGISTATION FORM</h1>
+            <p>Kindly fill in this form to Register.</p>
+        <label for="user name"><b>UserName</b></label>
+        <input
+        type="text"
+        placeholder="Enter UserName"
+        name="UserName"
+        id="UserName"
+        required 
+        />
+        
+        <label for="email"><b>Email</b></label>
+        <input
+        type="text"
+        placeholder="Enter Email"
+        name="email"
+        id="email"
+        required
+        />
+        
+        <label for="Tel number"><b>Tel number</b></label>
+        <input
+        type="Tel number"
+        placeholder="Tel number"
+        name="Tel number"
+        id="Tel number"
+        required
+        />
+
+        <label for="Password"><b>Password</b></label>
+        <input
+        type="password"
+        placeholder="Enter your password"
+        name="password"
+        id="password"
+        required
+        />
+        <label for="Confirm password"><b>Confirm password</b></label>
+        <input
+        type="Confirm password"
+        placeholder="Enter your password again"
+        name="Confirm password"
+        id="Confirm password"
+        required
+        />
+        <button type="OK">OK</button>
+     </div>
+    </form>
+</body>
+</html>
+
+css code--------
+body{
+  background-image: url("https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-S-Desktop-LHD-6.22.jpg");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+}
+h1 ,p{
+  text-align: center;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(221, 221, 199, 0.399);
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+}
+h1, p{
+  text-align: center;
+}
+
+input{
+  margin: 0.25em 0em 1em 0em;
+}
+
+input{
+  margin: 0.25em 0em 1em 0em;
+  outline: none;
+  padding: 0.5em;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0,25em;
+  color: black;
+}
+
+button{
+  padding: 0.75em;
+  border: none;
+  outline: none;
+  background-color: rgb(0, 0, 0);
+  color: cadetblue;
+  border-radius: 0.25em;
+}
+button:hover{
+  cursor: pointer;
+  background-color: rgb(90, 130, 141);
+}
+
